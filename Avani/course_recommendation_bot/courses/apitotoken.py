@@ -20,6 +20,6 @@ def get_iam_token(api_key):
 # Example usage:
 # token = get_iam_token("your_real_api_key_here")
 if __name__ == "__main__":
-    api_key = "0_W3cDUfarxX3RXK_HQCAg2nid7aYJ_IWQTc4CqPAJ8P"
+    api_key = ""
     token = get_iam_token(api_key)
     print("Your Bearer Token:\n", token)
